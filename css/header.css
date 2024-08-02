@@ -1,51 +1,70 @@
-.header-bg{
+.header-bg {
   background: var(--c12);
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: auto;
 }
 
-.header-menu{
+.header-menu {
   display: flex;
-  gap: 30px;
+  gap: 40px;
 }
 
-.header-menu a{
+.header-menu a {
   display: inline-block;
-  padding: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   color: var(--c1);
   font-weight: 600;
   font-size: 1.125rem;
+  position: relative;
 }
 
-@media(max-width:700px){
-  .header-bg{
-    background: rgba(0, 0, 0, 0.9);
-    backdrop-filter: blur( 10.5px );
-    -webkit-backdrop-filter: blur( 10.5px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    position: fixed;
+.header-menu a::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0%;
+  background-color: var(--c1);
+  margin-top: 4px;
+  border-radius: 4px;
+  transition: 120ms;
+  position: absolute;
+}
+.header-menu a:hover:after {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .header-bg {
+    top: 0;
+    border-radius: 0 0 4px 4px;
     width: 100%;
   }
-  .header{
+  .header {
     display: inline;
   }
-  .header-menu{
+  .header-menu {
     display: flex;
     justify-content: center;
     gap: 12px;
   }
-  .header-menu ,a ,img{
+  .header-menu,
+  a,
+  img {
     display: flex;
     justify-content: center;
   }
-  .header-menu a{
+  .header-menu a::after {
+    display: none;
+  }
+  .header-menu a {
     margin-top: 20px;
     background: var(--c10);
     justify-items: center;
@@ -53,24 +72,26 @@
     border-radius: 4px;
     color: var(--c2);
     font-size: 0.75rem;
-    transition: .5s;
+    transition: 0.5s;
   }
-  .header-menu a:hover{
+  .header-menu a:hover {
     background-color: var(--c8);
   }
 }
 
-@media(max-width:400px){
-  .header,a,img{
+@media (max-width: 400px) {
+  .header,
+  a,
+  img {
     margin: auto;
     width: 70%;
   }
-  .header-menu a{
+  .header-menu a {
     display: flex;
     font-size: 0.65rem;
     padding: 10px 18px;
   }
-  .header-menu{
+  .header-menu {
     gap: 30px;
   }
 }

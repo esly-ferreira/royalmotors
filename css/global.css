@@ -1,14 +1,26 @@
-body{
+body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
   margin-bottom: 2000px;
 }
-ul{
+
+ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+p,
+a {
+  margin: 0;
 }
