@@ -34,7 +34,7 @@
   background-color: var(--c1);
   margin-top: 4px;
   border-radius: 4px;
-  transition: 120ms;
+  transition: 0.5s;
   position: absolute;
 }
 .header-menu a:hover:after {
@@ -44,7 +44,6 @@
 @media (max-width: 700px) {
   .header-bg {
     top: 0;
-    border-radius: 0 0 4px 4px;
     width: 100%;
   }
   .header {
@@ -66,9 +65,10 @@
   }
   .header-menu a {
     margin-top: 20px;
+    display: inline-block;
     background: var(--c10);
     justify-items: center;
-    padding: 10px 40px;
+    padding: 10px 30px;
     border-radius: 4px;
     color: var(--c2);
     font-size: 0.75rem;
