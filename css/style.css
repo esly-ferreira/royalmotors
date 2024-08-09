@@ -4,3 +4,5 @@
 @import "./header.css";
 @import"./main.css";
 @import"./texto.css";
+@import"./componentes.css";
+@import"./carros/carros.css"
