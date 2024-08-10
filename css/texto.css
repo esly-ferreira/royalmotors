@@ -1,4 +1,4 @@
-.span{
+.span {
   color: var(--p3);
 }
 
@@ -78,13 +78,25 @@
   }
   .font-1-xl,
   .font-2-xl {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .font-1-xxl-center {
     font-size: 2rem;
     margin: 0 auto;
   }
-  .font-2-l{
+  .font-2-l {
     font-size: 0.9rem;
+  }
+  .font-2-m {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1245px) {
+  .font-1-xl {
+    font-size: 1rem;
+  }
+  .font-2-m {
+    font-size: 1rem;
   }
 }
