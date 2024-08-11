@@ -1,9 +1,9 @@
-.carro_lista{
+.carro-lista{
   padding-top: 12px;
   padding-bottom: 120px;
 }
 
-.carro_lista ul{
+.carro-lista ul{
   display: flex;
   gap: 40px;
   max-width: 1400px;
@@ -13,23 +13,27 @@
   margin-bottom: 60px;
 }
 
+.carro-lista h2{
+  padding: 0 0 40px 20px;
+}
+
 .carro-lista li{
   min-width: 200px;
 }
 
-.carro_lista a{
+.carro-lista a{
   display: block;
   text-decoration: none;
 }
 
-.carro_lista img{
+.carro-lista img{
   object-fit: cover;
   object-position: center;
   margin-bottom: 16px;
   min-width: 200px;
 }
 
-.carro_lista h3{
+.carro-lista h3{
   margin-bottom: 4px;
   display: grid;
   grid-template-columns: 20px auto;
@@ -37,7 +41,7 @@
   transition: 0.2s;
 }
 
-.carro_lista h3::before{
+.carro-lista h3::before{
   /* display: inline-block; */
   content: "";
   background: var(--deg);
@@ -47,41 +51,44 @@
   border-radius: 10px;
   transition: height 0.5s;
 }
-.carro_lista a:hover h3::before{
+.carro-lista a:hover h3::before{
   height: 100%;
 }
 
-.carro_lista a:hover h3{
+.carro-lista a:hover h3{
   transform: scaley(1);
   font-weight: 700;
 }
 
-.carro_lista li span{
+.carro-lista li span{
   padding-left: 20px;
 }
 
-.ver-mais{
+.ver-todos{
   display: flex;
   text-align: center;
   width: 160px;
   margin: 0 auto;
 }
 
-
 @media(max-width:1000px){
-  .carro_lista{
+  .carro-lista{
     padding-bottom: 6px;
   }
-  .carro_lista ul{
+  .carro-lista ul{
     gap: 20px;
     margin: 0 0 60px 0px;
   }
-  .carro_lista h2{
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 15px;
+  .carro-lista h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 0 0 32px;
   }
-  .carro_lista h3{
+  .carro-lista h3{
     margin-bottom: 0px;
+  }
+  .carro-lista{
+    padding-top: 12px;
+    padding-bottom: 60px;
   }
 }

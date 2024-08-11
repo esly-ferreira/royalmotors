@@ -1,8 +1,14 @@
-@import "./cores.css";
-@import "./style.css";
+/* utilitarios css */
 @import "./global.css";
-@import "./header.css";
-@import"./main.css";
+@import "./cores.css";
 @import"./texto.css";
 @import"./componentes.css";
-@import"./carros/carros.css"
+
+/* cabecalho */
+@import "./header.css";
+
+/* home */
+@import"./main.css";
+@import"./carros/carros.css";
+@import"./carros/vivaoluxo.css";
+@import"./carros/marcas.css";

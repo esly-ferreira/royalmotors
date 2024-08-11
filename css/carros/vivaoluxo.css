@@ -1,0 +1,99 @@
+.luxo-bg {
+  background-color: var(--c11);
+  box-shadow: inset 0 40px var(--c0), inset 0 -40px var(--c0);
+}
+
+.luxo-conteudo {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.luxo {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  max-width: 1600px;
+  gap: 60px;
+}
+
+.luxo-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+
+.luxo-conteudo > span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.luxo-conteudo h2 {
+  margin-bottom: 32px;
+  margin-right: 32px;
+}
+
+.luxo-conteudo > p {
+  margin-bottom: 32px;
+  margin-right: 32px;
+}
+
+.luxo a {
+  margin-bottom: 48px;
+}
+
+.luxo-vantagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+  margin-right: 32px;
+}
+
+.luxo-vantagens img {
+  width: 24px;
+  margin-bottom: 12px;
+}
+
+.luxo-vantagens h3 {
+  width: max-content;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 1000px) {
+  .luxo {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .luxo-img img {
+    border-radius: 0;
+    width: 100%;
+    height: 150px;
+  }
+  .luxo-conteudo {
+    padding-top: 0px;
+    padding-bottom: 110px;
+    margin: 32px;
+  }
+  .luxo-bg {
+    box-shadow: inset 0 0px var(--c0), inset 0 -0px var(--c0);
+  }
+  .luxo-vantagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 700px) {
+  .luxo-vantagens {
+    grid-template-columns: 1fr;
+    margin-right: 0px;
+  }
+  .luxo-conteudo > p {
+    margin-bottom: 32px;
+    margin-right: 0px;
+  }
+  .luxo-conteudo {
+    padding-bottom: 30px;
+  }
+}
