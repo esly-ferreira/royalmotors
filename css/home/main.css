@@ -6,7 +6,7 @@
 
 .introducao {
   display: grid;
-  grid-template-columns: 1fr 500px;
+  grid-template-columns: 1fr 1fr;
   max-width: 1100px;
   box-sizing: border-box;
   margin: 0 auto;
@@ -34,15 +34,6 @@
   margin-bottom: 90px;
   color: var(--c4);
   width: 37ch;
-}
-
-.introducao a {
-  display: inline-block;
-  padding: 16px 32px;
-  background: var(--deg);
-  border-radius: 4px;
-  color: var(--p2);
-  transition: background 1s;
 }
 
 .introducao a:hover a{

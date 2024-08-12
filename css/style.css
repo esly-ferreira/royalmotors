@@ -1,14 +1,16 @@
 /* utilitarios css */
-@import "./global.css";
-@import "./cores.css";
-@import"./texto.css";
-@import"./componentes.css";
+@import "./utlitarios/global.css";
+@import "./utlitarios/cores.css";
+@import "./utlitarios/texto.css";
+@import "./utlitarios/componentes.css";
 
 /* cabecalho */
-@import "./header.css";
+@import "./utlitarios/header.css";
 
 /* home */
-@import"./main.css";
-@import"./carros/carros.css";
-@import"./carros/vivaoluxo.css";
-@import"./carros/marcas.css";
+@import "./home/main.css";
+@import "./home/carros.css";
+@import "./home/vivaoluxo.css";
+@import "./home/marcas.css";
+@import "./home/depoimento.css";
+@import "./home/planos.css";

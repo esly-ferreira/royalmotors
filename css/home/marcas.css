@@ -1,7 +1,11 @@
+.marcas{
+  margin-bottom: 100px;
+}
+
 .marcas h2 {
   margin-top: 60px;
   margin-bottom: 60px;
-  padding: 0 0 0 32px;
+  padding: 0 0 0 10px;
 }
 
 .marcas ul {
