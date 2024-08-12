@@ -1,6 +1,6 @@
 .carro-lista{
   padding-top: 12px;
-  padding-bottom: 120px;
+  padding-bottom: 40px;
 }
 
 .carro-lista ul{
@@ -10,7 +10,6 @@
   margin: 0 auto;
   overflow-x: auto;
   padding: 20px;
-  margin-bottom: 60px;
 }
 
 .carro-lista h2{
@@ -56,8 +55,9 @@
 }
 
 .carro-lista a:hover h3{
-  transform: scaley(1);
+  /* transform: scaley(1); */
   font-weight: 700;
+  transform: translateY(-2px);
 }
 
 .carro-lista li span{
@@ -80,8 +80,8 @@
     margin: 0 0 60px 0px;
   }
   .carro-lista h2{
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 0 0 0 32px;
   }
   .carro-lista h3{
@@ -89,6 +89,5 @@
   }
   .carro-lista{
     padding-top: 12px;
-    padding-bottom: 60px;
   }
 }

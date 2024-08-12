@@ -22,10 +22,16 @@
   border-left: 2px var(--c2) solid;
 }
 
+.marcas li img:hover{
+  transform: translateY(-2px);
+  transition: all 200ms ease-in-out;
+}
+
 .marcas img {
   margin: auto;
   width: 200px;
   height: 70px;
+  transition: all 450ms ease-in-out;
 }
 
 .marcas li:first-child,
