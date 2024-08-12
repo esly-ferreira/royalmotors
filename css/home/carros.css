@@ -41,7 +41,6 @@
 }
 
 .carro-lista h3::before{
-  /* display: inline-block; */
   content: "";
   background: var(--deg);
   height: 10px;
@@ -55,7 +54,6 @@
 }
 
 .carro-lista a:hover h3{
-  /* transform: scaley(1); */
   font-weight: 700;
   transform: translateY(-2px);
 }

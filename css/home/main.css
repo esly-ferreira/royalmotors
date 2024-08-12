@@ -79,19 +79,18 @@
   .introducao a {
     display: grid;
     max-width: 50%;
-    /* margin: 0 auto; */
     margin-bottom: 40px;
   }
   .introducao h1 {
     margin-top: 40px;
-    /* text-align: center; */
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    padding: 0px;
   }
   .introducao p {
-    /* text-align: center; */
-    /* margin: 0 auto; */
+    margin-top: 20px;
     margin-bottom: 40px;
     width: 37ch;
+    padding: 0px;
   }
 }
 
