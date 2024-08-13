@@ -34,7 +34,7 @@
   display: grid;
   margin-bottom: 90px;
   color: var(--c4);
-  width: 37ch;
+  /* width: 37ch; */
   padding: 10px;
 }
 

@@ -1,5 +1,5 @@
 .carro-lista{
-  padding-top: 12px;
+  /* padding-top: 40px; */
   padding-bottom: 40px;
 }
 
@@ -10,10 +10,6 @@
   margin: 0 auto;
   overflow-x: auto;
   padding: 20px;
-}
-
-.carro-lista h2{
-  padding: 0 0 40px 10px;
 }
 
 .carro-lista li{
@@ -76,11 +72,6 @@
   .carro-lista ul{
     gap: 20px;
     margin: 0 0 60px 0px;
-  }
-  .carro-lista h2{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding: 0 0 0 32px;
   }
   .carro-lista h3{
     margin-bottom: 0px;

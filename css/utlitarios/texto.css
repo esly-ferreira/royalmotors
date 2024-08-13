@@ -66,6 +66,11 @@
   font: 700 4.5rem/1 "Poppins", sans-serif;
 }
 
+.font-2-l-center {
+  font-size: 1.5rem;
+  max-width: 38ch;
+}
+
 .font-luxo {
   font-family: "arepey";
   font-size: 4.5rem;
@@ -90,7 +95,7 @@
 
 @media (max-width: 700px) {
   .font-1-xxl {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .font-luxo {
     font-size: 2rem;
@@ -103,7 +108,7 @@
     font-size: 2.4rem;
   }
   .font-2-l-center {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .font-2-l {
     font-size: 0.9rem;
@@ -113,17 +118,16 @@
   }
 }
 
-
 @media (max-width: 1120px) {
   .font-1-xxl {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .font-2-l,
   .font-2-l-b {
     font-size: 1.125rem;
   }
-  
+
   .font-luxo {
-    font-size: 3rem
+    font-size: 2rem;
   }
 }

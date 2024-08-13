@@ -4,6 +4,10 @@
   margin: 0 auto;
 }
 
+.fonte-tit {
+  padding: 40px 0 40px 40px;
+}
+
 .botao {
   display: inline-block;
   padding: 16px 32px;
@@ -22,14 +26,12 @@
 
 .botao.sec:hover {
   background: var(--c9);
-  box-shadow: inset 0px 1px 0px 0px transparent,
-  0px 0px 180px 0px var(--c6);
+  box-shadow: inset 0px 1px 0px 0px transparent, 0px 0px 180px 0px var(--c6);
   transform: translateY(-2px);
 }
 
 .botao:hover {
-  box-shadow: inset 0px 1px 0px 0px transparent,
-  0px 0px 180px 0px #60ff17;
+  box-shadow: inset 0px 1px 0px 0px transparent, 0px 0px 180px 0px #60ff17;
   transform: translateY(-2px);
   z-index: -2;
 }

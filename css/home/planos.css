@@ -3,7 +3,6 @@
 }
 
 .planos {
-  padding-top: 60px;
   padding-bottom: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -12,15 +11,14 @@
 }
 
 .planos h2 {
-  margin-left: 10px;
+  margin-left: 0px;
   grid-column: 1/-1;
-  margin-bottom: 30px;
 }
 
 .planos-item {
   margin: 20px;
   background-color: var(--c12);
-  padding: 32px 32px 32px 60px;
+  padding: 32px 32px 32px 32px;
   border-radius: 4px;
   display: grid;
   grid-template-columns: 1fr auto;
@@ -60,6 +58,7 @@
 
 @media (max-width: 700px) {
   .planos {
+    padding-top: 40px;
     grid-template-columns: 1fr;
   }
   .planos-item{
