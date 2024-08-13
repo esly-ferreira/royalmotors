@@ -3,7 +3,6 @@
   grid-template-columns: 1fr 1fr;
   background: var(--deg);
 }
-
 .depoimento img {
   border-radius: 0px;
   width: 100%;
@@ -55,13 +54,13 @@
   }
   .depoimento {
     grid-template-columns: 1fr;
-    padding-bottom: 50px;
   }
   .depoimento img {
     height: 150px;
   }
   .depoimento-conteudo p {
-    padding: 32px;
+      padding: 20px 80px 0 80px;
+      align-self: end;
   } 
   .depoimento-conteudo span {
     padding: 32px;
