@@ -88,6 +88,31 @@
   -moz-text-fill-color: transparent;
 }
 
+.font-prata {
+  background-image: var(--prata);
+  background-clip: text;
+  font-weight: 900;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: var(--c4);
+}
+
+.font-ouro {
+  background-image: var(--ouro);
+  background-clip: text;
+  font-weight: 900;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: var(--gold);
+}
+
+
 .font-comentario {
   font-family: "Merriweather";
   font-size: 2rem;

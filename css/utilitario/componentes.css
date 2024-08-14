@@ -42,3 +42,23 @@
     font-size: 1rem;
   }
 }
+
+.svg-icon {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.svg-icon li {
+  display: flex;
+  gap: 10px;
+  place-items: center;
+  max-width: 26ch;
+}
+
+.endere {
+  max-width: 27ch;
+}
+
+.svg-icon svg {
+  max-width: 20px;
+}

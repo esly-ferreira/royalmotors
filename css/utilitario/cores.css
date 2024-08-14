@@ -1,78 +1,79 @@
-:root{
-  --deg:linear-gradient(45deg,#CCFF33,#9AFF29,#68FF20);
-  --deg2:linear-gradient(280deg,#CCFF33,#9AFF29,#68FF20);
-  --insta:linear-gradient(20deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
-  --p1:#CCFF33;
-  --p2:#346B19;
-  --p3:#7FFF24;
-  --c0:#ffffff;
-  --c1:#F7F7F7;
-  --c2:#EDEDED;
-  --c3:#DDDDDD;
-  --c4:#CCCCCC;
-  --c5:#B3B3B3;
-  --c6:#9B9B9B;
-  --c7:#666666;
-  --c8:#585858;
-  --c9:#404040;
-  --c10:#2E2E2E;
-  --c11:#121212;
-  --c12:#000000;
+:root {
+  --deg: linear-gradient(45deg, #ccff33, #9aff29, #68ff20);
+  --insta: #d62976;
+  --prata: linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(63,63,63,1) 80%);
+  --ouro: linear-gradient(180deg, rgba(255,255,148,1) 0%, rgba(239,184,16,1) 50%);
+
+  --p1: #ccff33;
+  --p2: #346b19;
+  --p3: #7fff24;
+  --c0: #ffffff;
+  --c1: #f7f7f7;
+  --c2: #ededed;
+  --c3: #dddddd;
+  --c4: #cccccc;
+  --c5: #b3b3b3;
+  --c6: #9b9b9b;
+  --c7: #666666;
+  --c8: #585858;
+  --c9: #404040;
+  --c10: #2e2e2e;
+  --c11: #121212;
+  --c12: #000000;
+  --gold: #F0BC34;
 }
 
-.p1{
-  color: #CCFF33;
+.p1 {
+  color: #ccff33;
 }
-.p2{
-  color: #346B19;
+.p2 {
+  color: #346b19;
 }
-.p3{
-  color: #7FFF24;
+.p3 {
+  color: #7fff24;
 }
-.c0{
+.c0 {
   color: #ffffff;
 }
-.c1{
-  color: #F7F7F7;
+.c1 {
+  color: #f7f7f7;
 }
-.c2{
-  color: #EDEDED;
+.c2 {
+  color: #ededed;
 }
-.c3{
-  color: #DDDDDD;
+.c3 {
+  color: #dddddd;
 }
-.c4{
-  color: #CCCCCC;
+.c4 {
+  color: #cccccc;
 }
-.c5{
-  color: #B3B3B3;
+.c5 {
+  color: #b3b3b3;
 }
-.c6{
-  color: #9B9B9B;
+.c6 {
+  color: #9b9b9b;
 }
-.c7{
+.c7 {
   color: #666666;
 }
-.c8{
+.c8 {
   color: #585858;
 }
-.c9{
+.c9 {
   color: #404040;
 }
-.c10{
-  color: #2E2E2E;
+.c10 {
+  color: #2e2e2e;
 }
-.c11{
+.c11 {
   color: #121212;
 }
-.c12{
+.c12 {
   color: #000000;
 }
 
-
-
 .css-animator {
-  background: linear-gradient(45deg,#CCFF33,#9AFF29,#68FF20);
+  background: linear-gradient(45deg, #ccff33, #9aff29, #68ff20);
   background-size: 700% 700%;
 
   -webkit-animation: AnimationName 5s ease infinite;
@@ -81,17 +82,35 @@
 }
 
 @-webkit-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 @-moz-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 @keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
