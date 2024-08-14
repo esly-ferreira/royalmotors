@@ -1,13 +1,12 @@
 .footer-bg {
-  background-color: var(--c12);
+  background: var(--c12);
 }
 
 .footer {
   display: grid;
   grid-template-columns: 5fr 5fr 2fr;
   gap: 40px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px;
 }
 
 .footer h3 {
@@ -34,7 +33,7 @@
 .redes-sociais {
   display: flex;
   gap: 32px;
-  align-items: center;
+  place-items: center;
 }
 .footer a:hover{
   color: var(--c0);
@@ -43,4 +42,28 @@
 .copy{
   grid-column: 1/-1;
   margin-top: 32px;
+}
+
+@media(max-width:1300px){
+  .footer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(max-width:1000px){
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer .logo{
+    display: none;
+  }
+}
+
+@media(max-width:800px){
+  .footer {
+    grid-template-columns: 1fr;
+  }
+  .informacoes{
+    padding-top: 40px;
+  }
 }

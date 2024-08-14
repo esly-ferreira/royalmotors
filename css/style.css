@@ -1,11 +1,13 @@
 /* utilitarios css */
-@import "./utlitarios/global.css";
-@import "./utlitarios/cores.css";
-@import "./utlitarios/texto.css";
-@import "./utlitarios/componentes.css";
+@import "./utilitario/global.css";
+@import "./utilitario/cores.css";
+@import "./utilitario/texto.css";
+@import "./utilitario/componentes.css";
+@import "./utilitario/redes.css";
 
 /* cabecalho */
-@import "./utlitarios/header.css";
+@import "./utilitario/header.css";
+@import "./utilitario/footer.css";
 
 /* home */
 @import "./home/main.css";
@@ -14,4 +16,3 @@
 @import "./home/marcas.css";
 @import "./home/depoimento.css";
 @import "./home/planos.css";
-@import "./home/footer.css";

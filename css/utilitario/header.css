@@ -18,8 +18,7 @@
 
 .header-menu a {
   display: inline-block;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding: 16px 0;
   color: var(--c1);
   position: relative;
 }
@@ -32,37 +31,37 @@
   background-color: var(--c1);
   margin-top: 4px;
   border-radius: 4px;
-  transition: 0.5s;
   position: absolute;
+  transition: 0.5s;
 }
+
 .header-menu a:hover:after {
   width: 100%;
 }
 
 @media (max-width: 700px) {
   .header-bg {
-    top: 0;
-    width: 100%;
+    display: flex;
   }
   .header {
     display: inline;
+  }
+  .header img{
+    margin-top: 20px;
   }
   .header-menu {
     display: flex;
     justify-content: center;
     gap: 12px;
   }
-  .header-menu,
-  a,
-  img {
+  .header-menu a {
     display: flex;
-    justify-content: center;
   }
   .header-menu a::after {
     display: none;
   }
   .header-menu a {
-    margin-top: 20px;
+    margin-top: 40px;
     display: inline-block;
     background: var(--c10);
     justify-items: center;

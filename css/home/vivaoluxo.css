@@ -4,8 +4,7 @@
 }
 
 .luxo-conteudo {
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding: 110px 0;
 }
 
 .luxo {
@@ -59,38 +58,37 @@
 
 @media (max-width: 1000px) {
   .luxo {
-    display: grid;
     grid-template-columns: 1fr;
     gap: 40px;
   }
   .luxo-img img {
+    /* width: 100%; */
     border-radius: 0;
-    width: 100%;
     height: 150px;
   }
   .luxo-conteudo {
-    padding-top: 0px;
-    padding-bottom: 110px;
+    /* padding-bottom: 110px; */
+    padding: 0 0 110px 0;
     margin: 32px;
   }
   .luxo-bg {
     box-shadow: inset 0 0px var(--c0), inset 0 -0px var(--c0);
   }
-  .luxo-vantagens {
+  /* .luxo-vantagens {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 32px;
-  }
+  } */
 }
 
 @media (max-width: 700px) {
   .luxo-vantagens {
     grid-template-columns: 1fr;
-    margin-right: 0px;
+    margin-right: 0;
   }
   .luxo-conteudo > p {
     margin-bottom: 32px;
-    margin-right: 0px;
+    margin-right: 0;
   }
   .luxo-conteudo {
     padding-bottom: 30px;

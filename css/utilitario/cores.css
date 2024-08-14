@@ -1,6 +1,7 @@
 :root{
   --deg:linear-gradient(45deg,#CCFF33,#9AFF29,#68FF20);
   --deg2:linear-gradient(280deg,#CCFF33,#9AFF29,#68FF20);
+  --insta:linear-gradient(20deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
   --p1:#CCFF33;
   --p2:#346B19;
   --p3:#7FFF24;
@@ -68,13 +69,15 @@
   color: #000000;
 }
 
+
+
 .css-animator {
   background: linear-gradient(45deg,#CCFF33,#9AFF29,#68FF20);
   background-size: 700% 700%;
 
   -webkit-animation: AnimationName 5s ease infinite;
   -moz-animation: AnimationName 5s ease infinite;
-  animation: AnimationName 5s ease infinite;
+  animation: AnimationName s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {

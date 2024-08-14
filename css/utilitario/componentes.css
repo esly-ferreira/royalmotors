@@ -4,14 +4,10 @@
   margin: 0 auto;
 }
 
-.fonte-tit {
-  padding: 40px 0 40px 40px;
-}
-
 .botao {
   display: inline-block;
   padding: 16px 32px;
-  background: var(--deg);
+  /* background: var(--deg); */
   border-radius: 4px;
   text-transform: uppercase;
   color: var(--p2);

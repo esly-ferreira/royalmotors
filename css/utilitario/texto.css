@@ -2,6 +2,10 @@
   color: var(--p3);
 }
 
+.font-tit {
+  padding: 40px 0 40px 40px;
+}
+
 .font-1-xs {
   font: 400 0.75rem/1.35 "Poppins", sans-serif;
 }
