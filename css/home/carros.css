@@ -58,13 +58,6 @@
   padding-left: 20px;
 }
 
-.ver-todos{
-  display: flex;
-  text-align: center;
-  width: 160px;
-  margin: 0 auto;
-}
-
 @media(max-width:1000px){
   .carro-lista{
     padding-bottom: 6px;
