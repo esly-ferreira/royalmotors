@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   background: var(--deg);
 }
+
 .depoimento img {
   border-radius: 0px;
   width: 100%;

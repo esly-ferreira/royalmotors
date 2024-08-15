@@ -75,7 +75,6 @@
 .css-animator {
   background: linear-gradient(45deg, #ccff33, #9aff29, #68ff20);
   background-size: 700% 700%;
-
   -webkit-animation: AnimationName 5s ease infinite;
   -moz-animation: AnimationName 5s ease infinite;
   animation: AnimationName s ease infinite;

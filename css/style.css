@@ -3,13 +3,11 @@
 @import "./utilitario/cores.css";
 @import "./utilitario/texto.css";
 @import "./utilitario/componentes.css";
-@import "./utilitario/redes.css";
+@import "./utilitario/redessociais.css";
 
 /* cabecalho */
 @import "./utilitario/header.css";
 @import "./utilitario/footer.css";
-@import "./utilitario/testestsetestesteset.css";
-
 
 /* home */
 @import "./home/main.css";
@@ -18,5 +16,4 @@
 @import "./home/marcas.css";
 @import "./home/depoimento.css";
 @import "./home/planos.css";
-
-
+@import "./home/termoscondicoes.css";

@@ -3,7 +3,7 @@
 }
 
 .font-tit {
-  padding: 40px 0 40px 40px;
+  padding: 40px 0px 40px 20px;
 }
 
 .font-1-xs {
@@ -155,7 +155,6 @@
   .font-2-l-b {
     font-size: 1.125rem;
   }
-
   .font-luxo {
     font-size: 2rem;
   }

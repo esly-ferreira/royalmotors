@@ -1,0 +1,33 @@
+.termo-bg {
+  background-color: var(--c11);
+  padding: 60px 0;
+}
+
+.termo p {
+  margin-bottom: 4px;
+}
+
+.termo-lista {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.termo-lista p {
+  margin-bottom: 24px;
+  max-width: 75ch;
+}
+
+.termo-lista h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.termo-lista p + h2 {
+  margin-top: 48px;
+}
+
+@media (max-width: 700px) {
+  .termo p {
+    font-size: 1rem;
+  }
+}

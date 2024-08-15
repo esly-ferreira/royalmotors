@@ -34,7 +34,6 @@
   grid-template-columns: 20px auto;
   align-items: center;
   transition: 0.2s ease, height 0.5s;
-
 }
 
 .carro-lista h3::before{
@@ -51,7 +50,7 @@
 }
 
 .carro-lista a:hover h3{
-  /* font-weight: 700; */
+  /* font-weight: 700 */
   transform: translateY(-2px);
 }
 
