@@ -1,19 +1,23 @@
 /* utilitarios css */
-@import "./utilitario/global.css";
 @import "./utilitario/cores.css";
 @import "./utilitario/texto.css";
 @import "./utilitario/componentes.css";
-@import "./utilitario/redessociais.css";
 
-/* cabecalho */
-@import "./utilitario/header.css";
-@import "./utilitario/footer.css";
+/* global */
+@import "./global/header.css";
+@import "./global/footer.css";
+@import "./global/global.css";
+
+/* carros */
+@import "./carros/carros.css";
+@import "./carros/carros-lista.css";
+
+/* termos */
+@import "./termos/termos-condicoes.css";
 
 /* home */
 @import "./home/main.css";
-@import "./home/carros.css";
 @import "./home/vivaoluxo.css";
 @import "./home/marcas.css";
 @import "./home/depoimento.css";
 @import "./home/planos.css";
-@import "./home/termoscondicoes.css";
