@@ -15,6 +15,10 @@
 /* termos */
 @import "./termos/termos-condicoes.css";
 
+/* planos */
+@import "./planos.css/perguntas.css";
+@import "./planos.css/vantagens.css";
+
 /* home */
 @import "./home/main.css";
 @import "./home/vivaoluxo.css";

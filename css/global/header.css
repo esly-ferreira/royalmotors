@@ -46,7 +46,7 @@
   .header {
     display: inline;
   }
-  .header img{
+  .header img {
     margin-top: 20px;
   }
   .header-menu {
@@ -79,6 +79,16 @@
   .header-menu a {
     display: flex;
     padding: 10px 18px;
+  }
+  .header-menu {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header-menu a {
+    display: flex;
+    padding: 7px 10px;
   }
   .header-menu {
     gap: 10px;

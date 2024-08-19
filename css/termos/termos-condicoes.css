@@ -30,4 +30,13 @@
   .termo p {
     font-size: 1rem;
   }
+  .termo-bg {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .termo-bg {
+    padding: 0;
+  }
 }

@@ -112,7 +112,6 @@
   -webkit-text-stroke-color: var(--gold);
 }
 
-
 .font-comentario {
   font-family: "Merriweather";
   font-size: 2rem;
@@ -157,5 +156,14 @@
   }
   .font-luxo {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .font-1-xxl-center {
+    font-size: 32px;
+  }
+  .font-2-l-center{
+    font-size: 12px;
   }
 }
