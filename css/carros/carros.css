@@ -84,9 +84,6 @@
     grid-template-columns: 1fr;
     margin: 30px 30px 0 30px;
   }
-  .carros img{
-    margin-bottom: 30px;
-  }
   .carros-bg:nth-child(odd){
     background: var(--c11);
   }
