@@ -20,6 +20,26 @@
   color: var(--c6);
 }
 
+.botao.seta{
+  display: flex;
+  align-items: center;
+}
+
+.botao.seta::after{
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 12px;
+  margin-left: 6px;
+  background-image: url(../../img/icons/seta-direita.svg);
+  background-repeat: no-repeat;
+  transition: transform 450ms;
+}
+
+.botao.seta:hover:after{
+  transform: translateX(6px);
+}
+
 .botao.sec:hover {
   background: var(--c9);
   box-shadow: inset 0px 1px 0px 0px transparent, 0px 0px 180px 0px var(--c6);
@@ -29,7 +49,7 @@
 .botao:hover {
   box-shadow: inset 0px 1px 0px 0px transparent, 0px 0px 180px 0px #60ff17;
   transform: translateY(-2px);
-  z-index: -2;
+  /* z-index: -2; */
 }
 
 @media (max-width: 700px) {
