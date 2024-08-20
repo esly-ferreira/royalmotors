@@ -72,11 +72,12 @@
   display: flex;
   align-items: start;
   top: 20px;
-  gap: 8px;
+  gap: 15px;
 }
 
 .carros-conteudo img{
   width: 24px;
+  height: 24px;
 }
 
 @media(max-width:1150px){
