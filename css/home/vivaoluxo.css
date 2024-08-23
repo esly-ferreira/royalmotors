@@ -10,7 +10,7 @@
 .luxo {
   display: grid;
   grid-template-columns: 40% 1fr;
-  max-width: 1600px;
+  max-width: 1400px;
   gap: 60px;
 }
 

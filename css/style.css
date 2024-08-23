@@ -11,13 +11,16 @@
 /* carros */
 @import "./carros/carros.css";
 @import "./carros/carros-lista.css";
+@import"./carros/carro-album.css";
+@import"./carros/plano.css";
 
 /* termos */
 @import "./termos/termos-condicoes.css";
 
 /* planos */
-@import "./planos.css/perguntas.css";
-@import "./planos.css/vantagens.css";
+@import "./planos/perguntas.css";
+@import "./planos/vantagens.css";
+@import "./planos/planos.css";
 
 /* home */
 @import "./home/main.css";
@@ -25,3 +28,4 @@
 @import "./home/marcas.css";
 @import "./home/depoimento.css";
 @import "./home/planos.css";
+

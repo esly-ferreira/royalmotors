@@ -6,9 +6,8 @@
 
 .introducao {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1100px;
-  box-sizing: border-box;
+  grid-template-columns: 900px auto;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -30,7 +29,7 @@
   padding: 10px;
 }
 
-.introducao p {
+.introducao p{
   display: grid;
   margin-bottom: 90px;
   color: var(--c4);
@@ -38,14 +37,18 @@
   padding: 10px;
 }
 
-.introducao a:hover a{
-  background: var(--deg2);
+.introducao a{
+  margin: 10px;
 }
 
 @media (max-width: 1120px) {
   .introducao-conteudo {
     padding: 0 0 0 20px;
     margin: auto;
+  }
+  .introducao{
+    padding-left: 0px;
+    grid-template-columns: 1fr 1fr;
   }
   .introducao a {
     margin-bottom: 120px;
@@ -77,9 +80,8 @@
     box-shadow: 0px var(--c0);
   }
   .introducao a {
-    /* display: flex; */
-    /* max-width: 50%; */
-    margin-bottom: 40px;;
+    margin: 0;
+    margin-bottom: 40px;
   }
   .introducao h1 {
     margin-top: 40px;

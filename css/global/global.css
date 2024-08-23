@@ -23,7 +23,8 @@ h2,
 h3,
 p,
 a,
-blockquote {
+blockquote,
+dd {
   margin: 0;
   padding: 0;
 }
