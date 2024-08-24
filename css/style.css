@@ -2,6 +2,7 @@
 @import "./utilitario/cores.css";
 @import "./utilitario/texto.css";
 @import "./utilitario/componentes.css";
+@import "./utilitario/formulario.css";
 
 /* global */
 @import "./global/header.css";
@@ -16,6 +17,10 @@
 
 /* termos */
 @import "./termos/termos-condicoes.css";
+
+/* contato */
+@import "./contato/contato.css";
+@import "./contato/locadoras.css";
 
 /* planos */
 @import "./planos/perguntas.css";
