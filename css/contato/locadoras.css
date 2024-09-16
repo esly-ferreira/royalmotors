@@ -5,7 +5,7 @@
   padding-bottom: 120px;
 }
 
-body{
+.locadora-bg{
   background: var(--c1);
 }
 
@@ -27,5 +27,14 @@ body{
 .locadora-conteudo{
   display: grid;
   grid-column: 1fr 1fr;
-  gap: 32px;
+  gap: 32px 16px;
+}
+
+.locadora-conteudo h3,
+.locadora-temp{
+  grid-column: 1/-1;
+}
+
+.locadora-dado{
+  
 }
