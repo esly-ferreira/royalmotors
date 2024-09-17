@@ -6,7 +6,6 @@
 .contatos {
   display: grid;
   grid-template-columns: 5fr 7fr;
-
 }
 
 .contato-dados,
@@ -76,12 +75,18 @@ button {
   margin-bottom: 60px;
 }
 
+@media (max-width: 1124px) {
+  .contatos-bg {
+    padding-bottom: 0px;
+  }
+}
+
 @media (max-width: 700px) {
   .contatos {
     grid-template-columns: 1fr;
   }
   .contato-dados,
   .contato-formulario {
-    padding: 30px;
+    padding: 40px;
   }
 }
