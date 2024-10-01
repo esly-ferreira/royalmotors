@@ -9,11 +9,14 @@
 @import "./global/footer.css";
 @import "./global/global.css";
 
+/* orcamento */
+@import "./orcamento/orcamento.css";
+
 /* carros */
 @import "./carros/carros.css";
 @import "./carros/carros-lista.css";
-@import"./carros/carro-album.css";
-@import"./carros/plano.css";
+@import "./carros/carro-album.css";
+@import "./carros/plano.css";
 
 /* termos */
 @import "./termos/termos-condicoes.css";
