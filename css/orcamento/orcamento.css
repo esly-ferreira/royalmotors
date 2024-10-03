@@ -160,9 +160,15 @@
   .orcamento,
   .orcamento-produto {
     grid-template-columns: 1fr;
+    margin-bottom: 0px;
   }
-  .orcamento-dados,
+  .orcamento-dados{
+    border-radius: 0 0 5px 5px;
+  }
   .orcamento-produto{
-    border-radius: 5px;
+    border-radius:5px 5px 0 0;
+  }
+  .orcamento{
+    padding: 0;
   }
 }
