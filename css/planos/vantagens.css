@@ -8,14 +8,14 @@
 }
 
 .vantagens h2 {
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
 }
 
 .vantagens ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  margin: 20px;
+  gap: 2.5rem;
+  margin: 1.25rem;
 }
 
 .vantagens li {
@@ -23,22 +23,22 @@
 }
 
 .vantagens li:hover {
-  transform: translateY(-2px);
+  transform: translateY(-0.125rem);
 }
 
 .vantagens img {
-  padding: 8px;
+  padding: 0.5rem;
 }
 
 @media (max-width: 1120px) {
   .vantagens {
-    padding-top: 60px;
-    padding-top: 60px;
+    padding-top: 3.75rem;
+    padding-top: 3.75rem;
   }
   .vantagens ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 2.5rem;
   }
 }
 
@@ -46,6 +46,6 @@
   .vantagens ul {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 2.5rem;
   }
 }

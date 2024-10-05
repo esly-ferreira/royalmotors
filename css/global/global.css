@@ -29,6 +29,6 @@ dd {
   padding: 0;
 }
 
-img[src$=".webp"]{
-  border-radius: 4px;
+img[src$=".webp"] {
+  border-radius: 0.25rem;
 }

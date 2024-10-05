@@ -53,7 +53,7 @@
 
 .luxo-vantagens h3 {
   width: max-content;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 1000px) {

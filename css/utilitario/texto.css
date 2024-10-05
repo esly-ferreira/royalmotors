@@ -3,7 +3,7 @@
 }
 
 .font-tit {
-  padding: 40px 0px 40px 20px;
+  padding: 2.5rem 0 2.5rem 1.25rem;
 }
 
 .font-1-xs {
@@ -161,9 +161,9 @@
 
 @media (max-width: 375px) {
   .font-1-xxl-center {
-    font-size: 32px;
+    font-size: 2rem;
   }
-  .font-2-l-center{
-    font-size: 12px;
+  .font-2-l-center {
+    font-size: 0.25rem;
   }
 }

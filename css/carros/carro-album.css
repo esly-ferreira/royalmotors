@@ -2,35 +2,35 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: start;
-  gap: 40px;
-  padding-top: 60px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  gap: 2.5rem;
+  padding-top: 3.75rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .carros-imagens {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .carros-imagens img {
   flex: 1;
-  min-width: 200px;
+  min-width: 12.5rem;
 }
 
 .carros-imagens img:first-child {
   min-width: 100%;
 }
 
-.marca-logo{
-padding: 180px 60px;
-height: 90px;
+.marca-logo {
+  padding: 11.25rem 3.75rem;
+  height: 5.625rem;
 }
 
 .album-conteudo > p {
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .carro-alugar {
@@ -38,8 +38,8 @@ height: 90px;
   grid-template-columns: max-content auto;
   align-items: center;
   justify-items: start;
-  gap: 8px 12px;
-  margin-bottom: 40px;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: 2.5rem;
 }
 
 .carro-alugar a {
@@ -49,79 +49,79 @@ height: 90px;
 .carro-alugar span {
   display: flex;
   align-items: center;
-  padding: 4px 8px;
+  padding: 0.25rem 0.5rem;
   background-color: var(--c12);
-  gap: 8px;
-  border-radius: 4px;
+  gap: 0.5rem;
+  border-radius: 0.25rem;
 }
 
 .album-conteudo h2 {
   letter-spacing: 0.015em;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 .carro-informacao,
 .carro-ficha {
-  padding: 32px;
+  padding: 2rem;
   background-color: var(--c12);
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 .carro-informacao {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .carro-informacao li img {
-  width: 24px;
-  margin-bottom: 8px;
+  width: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .carro-informacao h3 {
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .carro-ficha li {
-  padding: 4px 0;
+  padding: 0.25rem 0;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid var(--c11);
+  border-bottom: 0.0625rem solid var(--c11);
 }
 
 .carro-ficha li:last-child {
   border-bottom: none;
 }
 
-@media (max-width: 800px) {
-  .album {
-    grid-template-columns: 1fr;
-    padding-top: 20px;
-  }
-  .marca-logo{
+.outros {
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+}
+
+.outros a {
+  margin: 1.25rem;
+  width: 12.4375rem;
+  text-align: center;
+}
+
+@media (max-width: 919px) {
+  .logo {
     display: none;
   }
-}
-
-.outros{
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.outros a{
-margin: 20px;
-width: 199px;
-text-align: center;
-}
-
-@media(max-width: 919px){
-  .logo{
-    display: none;
-    }
 }
 
 @media (max-width: 500px) {
   .carro-informacao {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .album {
+    grid-template-columns: 1fr;
+    padding-top: 1.25rem;
+  }
+  .marca-logo {
+    display: none;
   }
 }

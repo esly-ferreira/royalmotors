@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 30px;
-  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
 }
 
 .locadora-bg {
@@ -11,27 +11,27 @@
 
 .locadora h2 {
   grid-column: 1/-1;
-  /* padding: 40px 0px; */
-  padding-bottom: 100px;
-  padding-top: 0px;
-  padding-left: 20px;
+  /* padding: 2.5rem 0; */
+  padding-bottom: 6.25rem;
+  padding-top: 0;
+  padding-left: 1.25rem;
 }
 
 .locadora img {
-  border-radius: 4px 4px 0 0;
+  border-radius: 0.25rem 0.25rem 0 0;
 }
 
 .locadora-item {
-  border-radius: 4px;
+  border-radius: 0.25rem;
   background: var(--c0);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
 }
 
 .locadora-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 32px 16px;
-  padding: 32px;
+  gap: 2rem 16px;
+  padding: 2rem;
 }
 
 .locadora-conteudo h3,
@@ -40,9 +40,9 @@
 }
 
 .locadora-dados {
-  gap: 8px;
-  border-left: 2px solid var(--c2);
-  padding-left: 12px;
+  gap: 0.5rem;
+  border-left: 0.125rem solid var(--c2);
+  padding-left: 0.75rem;
 }
 .locadora-dados a {
   color: var(--c8);
@@ -51,27 +51,27 @@
 .locadora-tempo {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .locadora-conteudo h3::before {
   content: "";
   background: var(--deg);
   height: 10px;
-  width: 20px;
+  width: 1.25rem;
   display: inline-block;
   margin-right: 10px;
-  margin-bottom: 5px;
-  border-radius: 3px;
+  margin-bottom: 0.3125rem;
+  border-radius: 0.1875rem;
 }
 
 @media (max-width: 1124px) {
   .locadora {
-    padding: 20px;
+    padding: 1.25rem;
   }
   .locadora h2 {
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 1.25rem;
+    padding-bottom: 2.5rem;
     padding-left: 0;
   }
 }
@@ -93,12 +93,12 @@
   }
 }
 
-@media(max-width:700px){
+@media (max-width: 700px) {
   .locadora-conteudo h3::before {
-    height: 7px;
+    height: 0.4375rem;
     width: 13px;
     margin-right: 10px;
-    margin-bottom: 1px;
-    border-radius: 3px;
+    margin-bottom: 0.0625rem;
+    border-radius: 0.1875rem;
   }
 }

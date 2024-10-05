@@ -1,54 +1,54 @@
-.carros-bg:nth-child(odd){
+.carros-bg:nth-child(odd) {
   /* background: var(--c11); */
-  background-image: linear-gradient(to right, var(--c0) 30%,var(--c11) 0%);
+  background-image: linear-gradient(to right, var(--c0) 30%, var(--c11) 0%);
 }
 
-.carros-conteudo h2{
+.carros-conteudo h2 {
   font-weight: 900;
 }
 
-.carros{
+.carros {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  gap: 2.5rem;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
 }
 
-.carros-img{
+.carros-img {
   position: relative;
 }
 
-.carros-img span{
+.carros-img span {
   background: var(--c12);
-  padding: 8px;
-  border-radius: 4px 0 0 4px;
+  padding: 0.5rem;
+  border-radius: 0.25rem 0 0 0.25rem;
   display: inline-block;
   position: absolute;
-  top: 20px;
+  top: 1.25rem;
   right: 0;
 }
 
-.carros-conteudo{
+.carros-conteudo {
   display: grid;
   grid-template-columns: 1fr auto;
   align-content: start;
 }
 
 .carros h2,
-.carros p{
+.carros p {
   grid-column: 1/-1;
 }
 
-.carros h2{
-  margin-bottom: 20px;
+.carros h2 {
+  margin-bottom: 1.25rem;
 }
 
-.carros p{
+.carros p {
   margin-bottom: 16px;
 }
 
-.carros h2::before{
+.carros h2::before {
   content: "";
   display: block;
   background: var(--deg);
@@ -56,50 +56,50 @@
   width: 10px;
   margin-right: 10px;
   border-radius: 10px;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
-.carros a{
+.carros a {
   place-self: end;
 }
 
-.carros ul{
+.carros ul {
   display: grid;
   gap: 16px;
 }
 
-.carros li{
+.carros li {
   display: flex;
   align-items: start;
-  top: 20px;
+  top: 1.25rem;
   gap: 15px;
 }
 
-.carros-conteudo img{
-  width: 24px;
-  height: 24px;
+.carros-conteudo img {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
-@media(max-width:1150px){
-  .carros{
+@media (max-width: 1150px) {
+  .carros {
     grid-template-columns: 1fr;
     margin: 30px 30px 0 30px;
   }
-  .carros-bg:nth-child(odd){
+  .carros-bg:nth-child(odd) {
     background: var(--c11);
   }
 }
 
-@media(max-width:600px){
-  .carros-conteudo{
+@media (max-width: 600px) {
+  .carros-conteudo {
     grid-template-columns: 1fr;
     align-content: center;
   }
-  .carros a{
+  .carros a {
     margin-top: 30px;
     place-self: start;
   }
-  .carros-conteudo ul{
+  .carros-conteudo ul {
     grid-template-columns: 1fr 1fr;
     font-size: 1rem;
   }
