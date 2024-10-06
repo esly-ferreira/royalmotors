@@ -1,7 +1,7 @@
 .introducao-bg {
   background: var(--c12);
   color: var(--c1);
-  box-shadow: inset 0 -3.75rem var(--c0);
+  box-shadow: inset 0 -60px var(--c0);
 }
 
 .introducao {
@@ -12,7 +12,7 @@
 }
 
 .introducao img {
-  border-radius: 0 0 0.25rem 0.25rem;
+  border-radius: 0 0 4px 4px;
   height: 100%;
   object-fit: cover;
   object-position: left;
@@ -27,40 +27,40 @@
   margin-bottom: 30px;
   width: 14ch;
   padding: 10px;
-  margin-left: 6.25rem;
+  margin-left: 100px;
 }
 
-.introducao p {
+.introducao p{
   display: grid;
-  margin-bottom: 5.625rem;
+  margin-bottom: 90px;
   color: var(--c4);
   padding: 10px;
-  margin-left: 6.25rem;
+  margin-left: 100px;
 }
 
-.introducao a {
+.introducao a{
   margin-left: 110px;
 }
 
 @media (max-width: 1120px) {
   .introducao-conteudo {
-    padding: 0 0 0 1.25rem;
+    padding: 0 0 0 20px;
     margin: auto;
   }
   .introducao h1,
   .introducao p,
-  .introducao a {
-    margin-left: 0;
+  .introducao a{
+    margin-left:  0;
   }
-  .introducao {
-    padding-left: 0;
+  .introducao{
+    padding-left: 0px;
     grid-template-columns: 1fr 1fr;
   }
   .introducao a {
     margin-bottom: 120px;
   }
   .introducao h1 {
-    margin-bottom: 1.25rem;
+    margin-bottom: 20px;
   }
   .introducao p {
     margin-top: 30px;
@@ -82,30 +82,30 @@
     height: 70px;
   }
   .introducao h1,
-  .introducao p {
-    margin-left: 0;
+  .introducao p{
+    margin-left:  0;
   }
   .introducao-bg {
-    box-shadow: 0 var(--c0);
+    box-shadow: 0px var(--c0);
   }
   .introducao a {
     margin: 0;
-    margin-bottom: 2.5rem;
+    margin-bottom: 40px;
   }
   .introducao h1 {
-    margin-top: 2.5rem;
-    margin-bottom: 1.25rem;
-    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 0px;
   }
   .introducao p {
-    margin-top: 1.25rem;
-    margin-bottom: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
     width: 37ch;
-    padding: 0;
+    padding: 0px;
   }
 }
 
-@media (max-width: 1000px) {
+@media(max-width:1000px) {
   .introducao {
     display: grid;
     grid-template-columns: 1fr;

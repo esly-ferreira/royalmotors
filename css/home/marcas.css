@@ -1,10 +1,10 @@
-.marcas {
-  margin-top: 6.25rem;
-  margin-bottom: 6.25rem;
+.marcas{
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .marcas ul {
-  padding: 0 1.25rem;
+  padding: 0 20px;
   max-width: 1400px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -13,18 +13,18 @@
 
 .marcas li {
   display: flex;
-  padding: 2rem;
-  border-left: 0.125rem var(--c2) solid;
+  padding: 32px;
+  border-left: 2px var(--c2) solid;
 }
 
-.marcas li img:hover {
-  transform: translateY(-0.125rem);
+.marcas li img:hover{
+  transform: translateY(-2px);
   transition: all 200ms ease-in-out;
 }
 
 .marcas img {
   margin: auto;
-  width: 12.5rem;
+  width: 200px;
   height: 70px;
   transition: all 450ms ease-in-out;
 }
@@ -35,7 +35,7 @@
 }
 
 .marcas li:nth-child(n + 5) {
-  border-top: 0.125rem var(--c2) solid;
+  border-top: 2px var(--c2) solid;
 }
 
 @media (max-width: 700px) {
@@ -43,7 +43,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .marcas li:nth-child(n + 3) {
-    border-top: 0.125rem var(--c2) solid;
+    border-top: 2px var(--c2) solid;
   }
   .marcas li:nth-child(odd) {
     border-left: none;

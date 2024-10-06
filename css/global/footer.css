@@ -5,25 +5,25 @@
 .footer {
   display: grid;
   grid-template-columns: 5fr 5fr 2fr;
-  gap: 2.5rem;
-  padding: 2.5rem;
+  gap: 40px;
+  padding: 40px;
 }
 
-.footer img {
+.footer img{
   display: inline-block;
-  padding: 0;
+  padding: 0px;
 }
 
 .footer h3 {
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
 }
 
 .footer-contato ul {
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
 }
 
-.footer-menu img {
-  max-width: 1.25rem;
+.footer-menu img{
+  max-width: 20px;
 }
 
 .footer li {
@@ -32,7 +32,7 @@
 
 .redes-sociais {
   display: flex;
-  gap: 2rem;
+  gap: 32px;
   place-items: center;
 }
 .footer a:hover {
@@ -41,7 +41,7 @@
 
 .copy {
   grid-column: 1/-1;
-  margin-top: 2rem;
+  margin-top: 32px;
 }
 
 @media (max-width: 1300px) {
@@ -64,7 +64,7 @@
     grid-template-columns: 1fr;
   }
   .informacoes {
-    padding-top: 2.5rem;
+    padding-top: 40px;
   }
 }
 
@@ -79,9 +79,9 @@
   background-color: transparent;
   position: relative;
   /* overflow: hidden; */
-  border-radius: 0.4375rem;
+  border-radius: 7px;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all .3s;
 }
 
 .svg-container {
@@ -93,10 +93,10 @@
   justify-content: center;
   background-color: transparent;
   backdrop-filter: blur(10px);
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.8px;
   border-radius: 10px;
-  transition: all 0.3s;
-  border: 0.0625rem solid rgba(156, 156, 156, 0.466);
+  transition: all .3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
 }
 
 .fundo-youtube,
@@ -110,20 +110,20 @@
   z-index: -1;
   border-radius: 10px;
   pointer-events: none;
-  transition: all 0.3s;
+  transition: all .3s;
 }
 
 /* redes redes-sociais */
 .Btn:hover .fundo-youtube {
   transform: rotate(35deg);
   transform-origin: bottom;
-  background-color: #ff0808;
+  background-color: #FF0808;
 }
 
 .Btn:hover .fundo-facebook {
   transform: rotate(35deg);
   transform-origin: bottom;
-  background-color: #086dff;
+  background-color: #086DFF;
 }
 
 .Btn:hover .fundo-insta {

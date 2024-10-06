@@ -3,7 +3,7 @@
 }
 
 .planos {
-  padding-bottom: 3.75rem;
+  padding-bottom: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -15,16 +15,16 @@
 }
 
 .planos-item {
-  margin: 1.25rem;
+  margin: 20px;
   background-color: var(--c12);
-  padding: 2rem 2rem 2rem 2rem;
-  border-radius: 0.25rem;
+  padding: 32px 32px 32px 32px;
+  border-radius: 4px;
   display: grid;
   grid-template-columns: 1fr auto;
 }
 
 .planos-item h3 {
-  margin-bottom: 2.5rem;
+  margin-bottom: 40px;
 }
 
 .planos-item span {
@@ -39,11 +39,11 @@
 
 .planos-item a {
   grid-column: 1/-1;
-  margin-top: 2rem;
+  margin-top: 32px;
 }
 
 .planos-item li + li {
-  margin-top: 1.25rem;
+  margin-top: 20px;
 }
 
 .planos-item li::before {
@@ -57,10 +57,14 @@
 
 @media (max-width: 700px) {
   .planos {
-    padding-top: 2.5rem;
+    padding-top: 40px;
     grid-template-columns: 1fr;
   }
-  .planos-item {
-    padding: 2rem;
+  .planos-item{
+    padding: 32px;
   }
 }
+
+
+
+
