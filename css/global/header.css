@@ -35,13 +35,19 @@
   transition: 0.5s;
 }
 
-.header-menu a:hover:after {
+.header-menu a:hover:after,
+.header-menu a.ativo:after {
   width: 100%;
+  background-color: #7fff24;
 }
 
 @media (max-width: 700px) {
   .header-bg {
     display: flex;
+  }
+  .header-bg .ativo{
+    background: var(--c1);
+    color: var(--c10);
   }
   .header {
     display: inline;

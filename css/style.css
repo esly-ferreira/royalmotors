@@ -3,6 +3,9 @@
 @import "./utilitario/texto.css";
 @import "./utilitario/componentes.css";
 @import "./utilitario/formulario.css";
+@import "./utilitario/animacao.css";
+@import "./utilitario/aviso.css";
+
 
 /* global */
 @import "./global/header.css";

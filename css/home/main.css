@@ -32,7 +32,7 @@
 
 .introducao p{
   display: grid;
-  margin-bottom: 90px;
+  margin-bottom: 24px;
   color: var(--c4);
   padding: 10px;
   margin-left: 100px;
